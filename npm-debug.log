@@ -1,0 +1,236 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose readDependencies loading dependencies from /Users/anoopg/angular2/my-proj/package.json
+5 verbose install where, deps [ '/Users/anoopg/angular2/my-proj',
+5 verbose install   [ '@angular/common',
+5 verbose install     '@angular/compiler',
+5 verbose install     '@angular/core',
+5 verbose install     '@angular/http',
+5 verbose install     '@angular/platform-browser',
+5 verbose install     '@angular/platform-browser-dynamic',
+5 verbose install     '@angular/router',
+5 verbose install     '@angular/router-deprecated',
+5 verbose install     '@angular/upgrade',
+5 verbose install     'systemjs',
+5 verbose install     'core-js',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'zone.js',
+5 verbose install     'angular2-in-memory-web-api',
+5 verbose install     'bootstrap',
+5 verbose install     'concurrently',
+5 verbose install     'lite-server',
+5 verbose install     'typescript',
+5 verbose install     'typings',
+5 verbose install     'canonical-path',
+5 verbose install     'http-server',
+5 verbose install     'tslint',
+5 verbose install     'lodash',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-cli',
+5 verbose install     'karma-htmlfile-reporter',
+5 verbose install     'karma-jasmine',
+5 verbose install     'protractor',
+5 verbose install     'rimraf' ] ]
+6 verbose install where, peers [ '/Users/anoopg/angular2/my-proj', [] ]
+7 verbose installManyTop reading for lifecycle /Users/anoopg/angular2/my-proj/package.json
+8 info preinstall angular2-quickstart@1.0.0
+9 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/angular2-in-memory-web-api/package.json
+10 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/bootstrap/package.json
+11 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/canonical-path/package.json
+12 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/concurrently/package.json
+13 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/core-js/package.json
+14 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/http-server/package.json
+15 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/jasmine-core/package.json
+16 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/karma/package.json
+17 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/karma-chrome-launcher/package.json
+18 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/karma-cli/package.json
+19 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/karma-htmlfile-reporter/package.json
+20 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/karma-jasmine/package.json
+21 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/lite-server/package.json
+22 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/lodash/package.json
+23 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/protractor/package.json
+24 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/reflect-metadata/package.json
+25 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/rimraf/package.json
+26 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/rxjs/package.json
+27 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/systemjs/package.json
+28 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/tslint/package.json
+29 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/typescript/package.json
+30 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/typings/package.json
+31 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/zone.js/package.json
+32 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/common/package.json
+33 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/compiler/package.json
+34 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/core/package.json
+35 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/http/package.json
+36 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/platform-browser/package.json
+37 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/platform-browser-dynamic/package.json
+38 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/router/package.json
+39 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/router-deprecated/package.json
+40 verbose installManyTop reading scoped package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/upgrade/package.json
+41 info package.json typings@1.2.0 No README data
+42 info package.json @angular/common@2.0.0-rc.2 No description
+43 info package.json @angular/common@2.0.0-rc.2 No README data
+44 info package.json @angular/compiler@2.0.0-rc.2 No description
+45 info package.json @angular/compiler@2.0.0-rc.2 No README data
+46 info package.json @angular/core@2.0.0-rc.2 No description
+47 info package.json @angular/core@2.0.0-rc.2 No README data
+48 info package.json @angular/http@2.0.0-rc.2 No description
+49 info package.json @angular/http@2.0.0-rc.2 No README data
+50 info package.json @angular/platform-browser@2.0.0-rc.2 No description
+51 info package.json @angular/platform-browser@2.0.0-rc.2 No README data
+52 info package.json @angular/platform-browser-dynamic@2.0.0-rc.2 No description
+53 info package.json @angular/platform-browser-dynamic@2.0.0-rc.2 No repository field.
+54 info package.json @angular/platform-browser-dynamic@2.0.0-rc.2 No README data
+55 info package.json @angular/router@2.0.0-rc.2 No description
+56 info package.json @angular/router@2.0.0-rc.2 No README data
+57 info package.json @angular/router-deprecated@2.0.0-rc.2 No description
+58 info package.json @angular/router-deprecated@2.0.0-rc.2 No README data
+59 info package.json @angular/upgrade@2.0.0-rc.2 No description
+60 info package.json @angular/upgrade@2.0.0-rc.2 No README data
+61 verbose readDependencies loading dependencies from /Users/anoopg/angular2/my-proj/package.json
+62 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/angular2-in-memory-web-api/package.json
+63 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/bootstrap/package.json
+64 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/canonical-path/package.json
+65 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/concurrently/package.json
+66 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/core-js/package.json
+67 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/http-server/package.json
+68 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/jasmine-core/package.json
+69 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/karma/package.json
+70 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/karma-chrome-launcher/package.json
+71 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/karma-cli/package.json
+72 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/karma-htmlfile-reporter/package.json
+73 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/karma-jasmine/package.json
+74 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/lite-server/package.json
+75 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/lodash/package.json
+76 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/protractor/package.json
+77 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/reflect-metadata/package.json
+78 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/rimraf/package.json
+79 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/rxjs/package.json
+80 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/systemjs/package.json
+81 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/tslint/package.json
+82 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/typescript/package.json
+83 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/typings/package.json
+84 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/zone.js/package.json
+85 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/concurrent/package.json
+86 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/concurrently/package.json
+87 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/hs/package.json
+88 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/http-server/package.json
+89 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/karma/package.json
+90 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/lite-server/package.json
+91 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/protractor/package.json
+92 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/rimraf/package.json
+93 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/tsc/package.json
+94 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/tslint/package.json
+95 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/tsserver/package.json
+96 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/typings/package.json
+97 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/.bin/webdriver-manager/package.json
+98 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/common/package.json
+99 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/compiler/package.json
+100 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/core/package.json
+101 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/http/package.json
+102 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/platform-browser/package.json
+103 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/platform-browser-dynamic/package.json
+104 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/router/package.json
+105 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/router-deprecated/package.json
+106 verbose targetResolver reading package data from /Users/anoopg/angular2/my-proj/node_modules/@angular/upgrade/package.json
+107 verbose already installed skipping bootstrap@^3.3.6 /Users/anoopg/angular2/my-proj
+108 verbose already installed skipping concurrently@^2.0.0 /Users/anoopg/angular2/my-proj
+109 verbose already installed skipping lite-server@^2.2.0 /Users/anoopg/angular2/my-proj
+110 verbose already installed skipping typescript@^1.8.10 /Users/anoopg/angular2/my-proj
+111 verbose already installed skipping typings@^1.0.4 /Users/anoopg/angular2/my-proj
+112 verbose already installed skipping canonical-path@0.0.2 /Users/anoopg/angular2/my-proj
+113 verbose already installed skipping http-server@^0.9.0 /Users/anoopg/angular2/my-proj
+114 verbose already installed skipping tslint@^3.7.4 /Users/anoopg/angular2/my-proj
+115 verbose already installed skipping lodash@^4.11.1 /Users/anoopg/angular2/my-proj
+116 verbose already installed skipping jasmine-core@~2.4.1 /Users/anoopg/angular2/my-proj
+117 verbose already installed skipping karma@^0.13.22 /Users/anoopg/angular2/my-proj
+118 verbose already installed skipping karma-chrome-launcher@^0.2.3 /Users/anoopg/angular2/my-proj
+119 verbose already installed skipping karma-cli@^0.1.2 /Users/anoopg/angular2/my-proj
+120 verbose already installed skipping karma-htmlfile-reporter@^0.2.2 /Users/anoopg/angular2/my-proj
+121 verbose already installed skipping karma-jasmine@^0.3.8 /Users/anoopg/angular2/my-proj
+122 verbose already installed skipping protractor@^3.3.0 /Users/anoopg/angular2/my-proj
+123 verbose already installed skipping rimraf@^2.5.2 /Users/anoopg/angular2/my-proj
+124 verbose already installed skipping @angular/common@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+125 verbose already installed skipping @angular/core@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+126 verbose already installed skipping @angular/compiler@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+127 verbose already installed skipping @angular/http@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+128 verbose already installed skipping @angular/platform-browser@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+129 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+130 verbose already installed skipping @angular/router@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+131 verbose already installed skipping @angular/router-deprecated@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+132 verbose already installed skipping @angular/upgrade@2.0.0-rc.2 /Users/anoopg/angular2/my-proj
+133 verbose already installed skipping systemjs@0.19.27 /Users/anoopg/angular2/my-proj
+134 verbose already installed skipping core-js@^2.4.0 /Users/anoopg/angular2/my-proj
+135 verbose already installed skipping reflect-metadata@^0.1.3 /Users/anoopg/angular2/my-proj
+136 verbose already installed skipping rxjs@5.0.0-beta.6 /Users/anoopg/angular2/my-proj
+137 verbose already installed skipping zone.js@^0.6.12 /Users/anoopg/angular2/my-proj
+138 verbose already installed skipping angular2-in-memory-web-api@0.0.11 /Users/anoopg/angular2/my-proj
+139 silly install resolved []
+140 info build /Users/anoopg/angular2/my-proj
+141 info linkStuff angular2-quickstart@1.0.0
+142 silly linkStuff angular2-quickstart@1.0.0 has /Users/anoopg/angular2 as its parent node_modules
+143 verbose linkBins angular2-quickstart@1.0.0
+144 verbose linkMans angular2-quickstart@1.0.0
+145 verbose rebuildBundles angular2-quickstart@1.0.0
+146 verbose rebuildBundles [ '.bin',
+146 verbose rebuildBundles   '@angular',
+146 verbose rebuildBundles   'angular2-in-memory-web-api',
+146 verbose rebuildBundles   'bootstrap',
+146 verbose rebuildBundles   'canonical-path',
+146 verbose rebuildBundles   'concurrently',
+146 verbose rebuildBundles   'core-js',
+146 verbose rebuildBundles   'http-server',
+146 verbose rebuildBundles   'jasmine-core',
+146 verbose rebuildBundles   'karma',
+146 verbose rebuildBundles   'karma-chrome-launcher',
+146 verbose rebuildBundles   'karma-cli',
+146 verbose rebuildBundles   'karma-htmlfile-reporter',
+146 verbose rebuildBundles   'karma-jasmine',
+146 verbose rebuildBundles   'lite-server',
+146 verbose rebuildBundles   'lodash',
+146 verbose rebuildBundles   'protractor',
+146 verbose rebuildBundles   'reflect-metadata',
+146 verbose rebuildBundles   'rimraf',
+146 verbose rebuildBundles   'rxjs',
+146 verbose rebuildBundles   'systemjs',
+146 verbose rebuildBundles   'tslint',
+146 verbose rebuildBundles   'typescript',
+146 verbose rebuildBundles   'typings',
+146 verbose rebuildBundles   'zone.js' ]
+147 info install angular2-quickstart@1.0.0
+148 info postinstall angular2-quickstart@1.0.0
+149 verbose unsafe-perm in lifecycle true
+150 info prepublish angular2-quickstart@1.0.0
+151 verbose validateInstall loading /Users/anoopg/angular2/my-proj/package.json for validation
+152 verbose stack Error: The package @angular/core@2.0.0-rc.2 does not satisfy its siblings' peerDependencies requirements!
+152 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+152 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+152 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+152 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+152 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+152 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+152 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+152 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+152 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+152 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+153 verbose cwd /Users/anoopg/angular2/my-proj
+154 error Darwin 13.4.0
+155 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+156 error node v4.2.4
+157 error npm  v2.14.12
+158 error code EPEERINVALID
+159 error peerinvalid The package @angular/core@2.0.0-rc.2 does not satisfy its siblings' peerDependencies requirements!
+159 error peerinvalid Peer @angular/common@2.0.0-rc.2 wants @angular/core@2.0.0-rc.2
+159 error peerinvalid Peer @angular/compiler@2.0.0-rc.2 wants @angular/core@2.0.0-rc.2
+159 error peerinvalid Peer @angular/http@2.0.0-rc.2 wants @angular/core@2.0.0-rc.2
+159 error peerinvalid Peer @angular/platform-browser@2.0.0-rc.2 wants @angular/core@2.0.0-rc.2
+159 error peerinvalid Peer @angular/platform-browser-dynamic@2.0.0-rc.2 wants @angular/core@2.0.0-rc.2
+159 error peerinvalid Peer @angular/router@2.0.0-rc.2 wants @angular/core@^2.0.0-rc
+159 error peerinvalid Peer @angular/router-deprecated@2.0.0-rc.2 wants @angular/core@^2.0.0-rc
+159 error peerinvalid Peer @angular/upgrade@2.0.0-rc.2 wants @angular/core@2.0.0-rc.2
+159 error peerinvalid Peer angular2-in-memory-web-api@0.0.11 wants @angular/core@2.0.0-rc.1
+160 verbose exit [ 1, true ]
