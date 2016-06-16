@@ -1,10 +1,12 @@
+
 import { Component } from '@angular/core';
+
 export class Hero {
   id: number;
   name: string;
 }
 const HEROES: Hero[] = [
-  { id: 11, name: 'Mr. Nice' },
+  { id: 11, name: 'Mr. Nice :)' },
   { id: 12, name: 'Narco' },
   { id: 13, name: 'Bombasto' },
   { id: 14, name: 'Celeritas' },
@@ -36,8 +38,8 @@ const HEROES: Hero[] = [
     `
 })
 export class AppComponent {
-title = 'Tour of Heroes';
-heroes = HEROES;
-selectedHero: Hero;
-onSelect(hero: Hero) { this.selectedHero = hero; }
+  title = 'Tour of Heroes';
+  heroes = HEROES;
+  selectedHero: Hero;
+  onSelect(hero: Hero) { this.selectedHero = hero; }
 }
