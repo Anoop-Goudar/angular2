@@ -1,12 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { HeroesComponent } from './heroes.component';
 import { HeroService } from './hero.service';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
+import { DashboardComponent } from './dashboard.component';
 
 @Component ({
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
+    <a [routerLink]="['Dashboard']">Dashboard</a>
     <a [routerLink]="['Heroes']">Heroes</a>
     <router-outlet></router-outlet>
     `,
@@ -17,7 +19,13 @@ import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/route
   {
     path: '/heroes',
     name: 'Heroes',
-    component: HeroesComponent 
+    component: HeroesComponent
+  },
+  {
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: DashboardComponent,
+    useAsDefault: true
   }
 ])
 

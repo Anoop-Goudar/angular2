@@ -7,7 +7,7 @@ import { HeroService } from './hero.service';
 @Component({
   selector: 'my-heroes',
   template: `
-    <h2>{{ title }}</h2>
+    <h3>{{ title }}</h3>
     <ul class="heroes">
       <li *ngFor="let hero of heroes"
         [class.selected]="hero === selectedHero"
